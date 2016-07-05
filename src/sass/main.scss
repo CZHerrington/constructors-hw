@@ -1,0 +1,12 @@
+body {
+  background: #e2ebf3;
+}
+
+p{
+transition: all 2s;
+}
+
+p:hover{
+transition: all 1.5s;
+color: white;
+}
