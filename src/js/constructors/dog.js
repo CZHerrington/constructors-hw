@@ -12,7 +12,7 @@ else { return obj.color};
 };
 function hungerTest(obj){
   if (obj == undefined){return undefined}
-else if (obj.hungry == false){return false}
+else if (obj.hungry == false){return obj.hungry}
 else {return true};
 };
 }
